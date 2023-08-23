@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+import React from 'react';
+import Header from './components/Header/Header';
+import List from './components/List/List';
+import Snowfall from 'react-snowfall'; // Import the Snowfall component
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <List />
+      <Snowfall snowflakeCount={300} color="#007bff" style={{ zIndex: -1 }} />
     </div>
   );
 }
