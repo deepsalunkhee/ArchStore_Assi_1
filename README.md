@@ -1,3 +1,5 @@
+### Note:
+- This is a Intership hiring process task That I  was assigned but I was not selected 🥹. and now as I do not plan to make any further changes here I am archiving this repo ✌🏽
 
 [Try it out](https://archstoreassi1-deepsalunkhee.vercel.app/)
 
